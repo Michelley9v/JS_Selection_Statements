@@ -1,9 +1,33 @@
 console.log("Hello World!\n==========\n");
-console.log(
-  "Follow the steps in the README.md file to complete the exercises:\n==========\n"
-);
+
+console.log("Follow the steps in the README.md file to complete the exercises:\n==========\n");
+
 let answer = prompt ("what is your name");
-console.log ("Hello," = answer); //
+console.log("Hello,"); 
+
+let magicNumber = 3;
+let min = 1;
+let max = 100;
+
+
+let guessNumber = prompt(`Guess a number between $(min and $(max)?`);
+
+
+guessNumber = parseInt(guessNumber);
+
+
+if ('isNaan(guessNumber) // guessNumber < 1 // guessNumber > 100');{
+console.log(
+  `You didn't give me a valid number between ${min}and ${max}as a guess >:(`);
+} 
+
+if (guessNumber == magicNumber) {
+  console.log("Congrats!You guessed the magic number.");
+}else if (guessNumber> magicNumber){
+  console.log("Guess was too high ;/. Try again.");
+}else {
+  console.log("Guess was too low >:(.Try again.");
+}
 
 
 
@@ -17,8 +41,7 @@ console.log ("Hello," = answer); //
 
 
 
-
-let birthMonth = window prompt("What is your Birth Month?");
+let birthMonth = window.prompt("What is your Birth Month?");
 
 switch (birthMonth) {
  case "December":
@@ -42,11 +65,15 @@ case "June":
       case "September":
         case "October":
           case "November":
-            console.log (Fall);
+            console.log(Fall);
             break;
+            default:
+              console.log("I don't recognize that month...");
+
+
 }
 
-switch (typeId){
+switch  (tankTop){
   case "01":
     type = "Tank Top";
  break;
